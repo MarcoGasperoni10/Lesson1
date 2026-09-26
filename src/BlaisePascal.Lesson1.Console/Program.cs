@@ -3,15 +3,20 @@
     // Metodo di entrata per esecuzione del codice
     public static void Main()
     {
-        Console.WriteLine("Benvenuto nella Easy Class 3E!");
+        Console.WriteLine("Inserisci il nome del cliente:");
+        string nomeCliente = Console.ReadLine();
 
-        int costoSpedizione = 5; // dichiarazione + assegnazione
-        costoSpedizione = 10; // assegnazione
+        Console.WriteLine($"Benvenuto {nomeCliente} nella Easy Class 3E!");
+        
+        Console.WriteLine("Inserisci il tipo di spedizione:");
+        string tipoConsegna = Console.ReadLine();
 
-        int numeroPacchi = 2;
+        Console.WriteLine("Inserisci il numero di pacchi acquistati:");
+        int numeroPacchi = int.Parse(Console.ReadLine());
 
-        string tipoConsegna = "Standard"; // dichiarazione + assegnazione
-
+        int costoSpedizione = 5;
+        costoSpedizione = 10;
+        
         int costoTotale = costoSpedizione * numeroPacchi;
 
         Console.WriteLine($"La consegna selezionata è di tipo {tipoConsegna} e il costo totale è di {costoTotale} euro.");
