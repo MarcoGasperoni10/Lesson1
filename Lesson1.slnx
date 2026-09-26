@@ -1,9 +1,10 @@
 <Solution>
   <Folder Name="/doc/" />
   <Folder Name="/src/">
+    <Project Path="src/BlaisePascal.Lesson1.Console/BlaisePascal.Lesson1.Console.csproj" Id="beef77e8-383a-4c06-9d83-7012223232fd" />
     <Project Path="src/BlaisePascal.Lesson1.Domain/BlaisePascal.Lesson1.Domain.csproj" />
   </Folder>
   <Folder Name="/test/">
-    <Project Path="test/Test1/Test1.csproj" />
+    <Project Path="test/BlaisePascal.Lesson1.DomainTest/BlaisePascal.Lesson1.DomainTest.csproj" Id="d1601b53-78d4-45b4-b326-5f37356b6db3" />
   </Folder>
 </Solution>
