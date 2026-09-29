@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlaisePascal.Lesson1.Domain\BlaisePascal.Lesson1.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
