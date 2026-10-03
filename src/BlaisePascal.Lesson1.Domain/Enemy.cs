@@ -17,7 +17,7 @@ namespace BlaisePascal.Lesson1.Domain
         private int _health; // mutable
 
         // constant attributes
-        private const int maxHealth = 100; // constant that states the enemy's max health
+        private const int _maxHealth = 100; // constant that states the enemy's max health
 
         // Costruttore pubblico per istanziare un oggetto della classe Enemy
         public Enemy() { }

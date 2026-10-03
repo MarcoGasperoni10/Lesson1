@@ -1,29 +1,40 @@
 ﻿using BlaisePascal.Lesson1.Domain;
 
-public class Program // This is a class
+namespace BlaisePascal.Lesson1.UIConsole
 {
-    // Entrance function to execute code
-    public static void Main()
+    internal class Program // This is a class
     {
-        Console.WriteLine("Inserisci il nome del cliente:");
-        string nomeCliente = Console.ReadLine();
+        // Entrance function to execute code
+        public static void Main()
+        {
+            /*
+            Console.WriteLine("Inserisci il nome del cliente:");
+            string nomeCliente = Console.ReadLine();
 
-        Console.WriteLine($"Benvenuto {nomeCliente} nella Easy Class 3E!");
-        
-        Console.WriteLine("Inserisci il tipo di spedizione:");
-        string tipoConsegna = Console.ReadLine();
+            Console.WriteLine($"Benvenuto {nomeCliente} nella Easy Class 3E!");
 
-        Console.WriteLine("Inserisci il numero di pacchi acquistati:");
-        int numeroPacchi = int.Parse(Console.ReadLine());
+            Console.WriteLine("Inserisci il tipo di spedizione:");
+            string tipoConsegna = Console.ReadLine();
 
-        int costoSpedizione = 5;
-        costoSpedizione = 10;
-        
-        int costoTotale = costoSpedizione * numeroPacchi;
+            Console.WriteLine("Inserisci il numero di pacchi acquistati:");
+            int numeroPacchi = int.Parse(Console.ReadLine());
 
-        Console.WriteLine($"La consegna selezionata è di tipo {tipoConsegna} e il costo totale è di {costoTotale} euro.");
+            int costoSpedizione = 5;
+            costoSpedizione = 10;
 
-        // [Tipo] [NomeOggetti] = new [Tipo](); // istanzia della classe [Tipo]
-        Enemy enemy = new Enemy(); // istanzia della classe enemy
+            int costoTotale = costoSpedizione * numeroPacchi;
+
+            Console.WriteLine($"La consegna selezionata è di tipo {tipoConsegna} e il costo totale è di {costoTotale} euro.");
+
+            // [Tipo] [NomeOggetti] = new [Tipo](); // istanzia della classe [Tipo]
+            Enemy enemy = new Enemy(); // istanzia della classe
+            */
+
+            Vehicle vehicle = new Vehicle("AB123CD");
+
+            string license = vehicle.LicensePlate;
+
+            Console.WriteLine(license);
+        }
     }
 }

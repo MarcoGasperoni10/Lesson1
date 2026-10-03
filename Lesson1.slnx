@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/doc/" />
   <Folder Name="/src/">
-    <Project Path="src/BlaisePascal.Lesson1.Console/BlaisePascal.Lesson1.Console.csproj" Id="beef77e8-383a-4c06-9d83-7012223232fd" />
+    <Project Path="src/BlaisePascal.Lesson1.Console/BlaisePascal.Lesson1.UIConsole.csproj" Id="beef77e8-383a-4c06-9d83-7012223232fd" />
     <Project Path="src/BlaisePascal.Lesson1.Domain/BlaisePascal.Lesson1.Domain.csproj" />
   </Folder>
   <Folder Name="/test/">
