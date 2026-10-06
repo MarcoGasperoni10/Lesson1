@@ -1,10 +1,12 @@
 <Solution>
   <Folder Name="/doc/" />
   <Folder Name="/src/">
-    <Project Path="src/BlaisePascal.Lesson1.Console/BlaisePascal.Lesson1.UIConsole.csproj" Id="beef77e8-383a-4c06-9d83-7012223232fd" />
+    <Project Path="src/BlaisePascal.Lesson1.Console/BlaisePascal.Lesson1.UIConsole.csproj" />
     <Project Path="src/BlaisePascal.Lesson1.Domain/BlaisePascal.Lesson1.Domain.csproj" />
   </Folder>
   <Folder Name="/test/">
-    <Project Path="test/BlaisePascal.Lesson1.DomainTest/BlaisePascal.Lesson1.DomainTest.csproj" Id="d1601b53-78d4-45b4-b326-5f37356b6db3" />
+    <Project Path="test/BlaisePascal.Lesson1.DomainTest/BlaisePascal.Lesson1.DomainTest.csproj" Id="d1601b53-78d4-45b4-b326-5f37356b6db3">
+      <Build Solution="Debug|*" Project="false" />
+    </Project>
   </Folder>
 </Solution>
