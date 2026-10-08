@@ -7,11 +7,18 @@ namespace BlaisePascal.Lesson1.UIConsole
         // Entrance function to execute code
         public static void Main()
         {
-            Enemy enemy = new Enemy();
-            enemy.SetHealth(1);
-            Console.WriteLine("Enemy Health: " + enemy.Health);
-            Console.WriteLine("Enemy is alive: " + enemy.IsAlive());
-            enemy.TakeDamage(2);
+            try
+            {
+                Vehicle vehicle1 = new Vehicle("AB123CD", -1, 50, 75);
+                Console.WriteLine(vehicle1.LicensePlate);
+                Console.WriteLine(vehicle1.OdometerKm);
+                Console.WriteLine(vehicle1.DailyRate);
+                Console.WriteLine(vehicle1.FuelLevelPercentage);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
